@@ -1,4 +1,4 @@
-// Mantive a lógica com expo-camera. Só deixei o overlay mais “bonito” e legível.
+
 import React, { useRef } from 'react';
 import { Alert, Pressable, StyleSheet, Text, View } from 'react-native';
 import { CameraView, useCameraPermissions, BarcodeScanningResult } from 'expo-camera';
@@ -101,3 +101,4 @@ const styles = StyleSheet.create({
   btnPrimary: { backgroundColor: '#7c3aed', padding: 12, borderRadius: 12, alignItems: 'center' },
   btnText: { color: '#fff', fontWeight: '700' },
 });
+

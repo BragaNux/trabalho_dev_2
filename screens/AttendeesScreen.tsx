@@ -1,4 +1,4 @@
-// Mesma lógica de paginação/check-in. Aqui só dei um tapa visual + toque de UX nos itens.
+
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { ActivityIndicator, Alert, FlatList, Pressable, RefreshControl, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -206,3 +206,4 @@ const styles = StyleSheet.create({
   btnPrimary: { backgroundColor: '#7c3aed', padding: 12, borderRadius: 12, alignItems: 'center' },
   btnText: { color: '#fff', fontWeight: '700' },
 });
+
